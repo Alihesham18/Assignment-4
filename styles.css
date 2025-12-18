@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.task {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.task button {
+    margin-left: 10px;
+}
+
+.task.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
